@@ -16,7 +16,16 @@ hide_instagram: false
 hide_tiktok: false
 featured: false
 order: 1
-jobs: []
+jobs:
+  - title: QWERTY
+    client: Nike
+    date: March 2026
+    photos:
+      - /images/models/IMG_5234.png
+      - /images/models/IMG_5201.png
+      - /images/models/IMG_5249.jpeg
+      - /images/models/IMG_5247.jpeg
+    show: true
 polaroids:
   - /images/models/IMG_4886.jpeg
   - /images/models/IMG_4822.jpeg
