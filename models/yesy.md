@@ -1,6 +1,6 @@
 ---
 name: Yesy
-gender: women
+gender: men
 category: Modest
 image: /images/models/IMG_4882.jpeg
 images:
