@@ -15,11 +15,14 @@ tiktok: Heisrema
 hide_instagram: false
 hide_tiktok: false
 featured: false
-order: null
+order: 2
 jobs: []
-polaroids: []
-comp_card_images: []
-comp_card: ''
+polaroids:
+  - /images/models/IMG_4886.jpeg
+  - /images/models/IMG_4822.jpeg
+comp_card_images:
+  - /images/models/IMG_4885.jpeg
+comp_card: /images/models/IMG_4883.jpeg
 hide_jobs: false
 hide_polaroids: false
 hide_comp_card: false
