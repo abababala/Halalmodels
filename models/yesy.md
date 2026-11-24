@@ -1,7 +1,7 @@
 ---
 name: Yesy
 gender: men
-category: Modest
+category: Commercial
 image: /images/models/IMG_4882.jpeg
 images:
   - /images/models/IMG_4880.jpeg
@@ -15,14 +15,14 @@ tiktok: Heisrema
 hide_instagram: false
 hide_tiktok: false
 featured: false
-order: 2
+order: 1
 jobs: []
 polaroids:
   - /images/models/IMG_4886.jpeg
   - /images/models/IMG_4822.jpeg
 comp_card_images:
   - /images/models/IMG_4885.jpeg
-comp_card: /images/models/IMG_4883.jpeg
+comp_card: /images/models/Creative_Direction_newbutton.pdf
 hide_jobs: false
 hide_polaroids: false
 hide_comp_card: false
