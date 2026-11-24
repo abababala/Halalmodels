@@ -1,0 +1,232 @@
+{
+  "brand": {
+    "name": "Halal Models",
+    "logo": "images/brand/logo-full.png",
+    "logo_height": 50,
+    "menu_logo": "",
+    "favicon": ""
+  },
+  "look": {
+    "preset": "black",
+    "bg": "",
+    "surface": "",
+    "text": "",
+    "dim": "",
+    "accent": "",
+    "line": "",
+    "font_pair": "montserrat"
+  },
+  "pages": {
+    "journal": false,
+    "scouting": true,
+    "brands": true,
+    "casting": false,
+    "press": false,
+    "about": true,
+    "team": false,
+    "faq": false,
+    "contact": true
+  },
+  "nav": {
+    "home": "Home",
+    "models": "Models",
+    "journal": "Journal",
+    "scouting": "Get Scouted",
+    "brands": "For Brands",
+    "casting": "Casting",
+    "press": "Press",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "announcement": {
+    "text": "",
+    "link": ""
+  },
+  "home": {
+    "eyebrow": "",
+    "headline": "Halal Models",
+    "tagline": "Discovering and nurturing the next generation of iconic talent.",
+    "women_label": "Women",
+    "men_label": "Men",
+    "hero_images": [],
+    "ticker": [
+      "Runway",
+      "Editorial",
+      "Streetwear",
+      "Commercial",
+      "Halal Models"
+    ],
+    "ticker_speed": 40,
+    "board_label": "Current roster",
+    "board_title": "The Board",
+    "featured_count": 8,
+    "all_label": "View all models",
+    "scout_title": "Become a new face",
+    "journal_title": "The Journal",
+    "brands_title": "Work with us"
+  },
+  "features": {
+    "hover_second_photo": true,
+    "shortlist": true,
+    "ticker": true,
+    "jobs": true,
+    "polaroids": true,
+    "comp_card": true,
+    "bio": true,
+    "stats": true,
+    "book_button": true
+  },
+  "scouting": {
+    "title": "Get Scouted",
+    "label": "Apply now",
+    "intro": "Welcome dear new faces, fill out the form below. Our team reviews every submission personally and will reach out if you get scouted.",
+    "note": "Please attach two unedited photos (one close-up, one full length) before sending.",
+    "subnote": "This opens your email app with your details pre-filled.",
+    "button": "Submit Application"
+  },
+  "about": {
+    "title": "About Us",
+    "label": "Who we are",
+    "intro": "Halal Models is a modeling agency with partners and talents in worldwide, dedicated to discovering and nurturing the next generation of iconic talent. We celebrate diversity and individuality, and back our models with a team that’s genuinely invested in their careers.",
+    "photo": "",
+    "team_title": "Team",
+    "blocks": [
+      {
+        "title": "Our Vision",
+        "text": "Halal Models envisions a world where beauty knows no boundaries. Our goal is to redefine the standards of beauty and fashion by representing a diverse array of talents that reflect the rich tapestry of European, African, Asian and American culture. We believe in the power of authenticity and strive to empower models to embrace their uniqueness and express it confidently on the global stage."
+      },
+      {
+        "title": "Our Mission",
+        "text": "Driven by passion and creativity, our mission is to provide a platform for aspiring models to thrive. We are committed to cultivating talent, fostering professional growth, and building lasting relationships within the fashion industry. With a focus on integrity, excellence and innovation, we aim to set the benchmark for model management globally."
+      }
+    ]
+  },
+  "team": [],
+  "brands": {
+    "title": "For Brands",
+    "label": "Book talent",
+    "intro": "Looking to book talent? Shortlist the models you like and tell us about your project.",
+    "button": "Send enquiry",
+    "note": "This opens your email app with your enquiry pre-filled."
+  },
+  "casting": {
+    "title": "Casting",
+    "label": "Open calls",
+    "intro": "",
+    "items": []
+  },
+  "press": {
+    "title": "Press",
+    "label": "In the press",
+    "intro": "",
+    "items": []
+  },
+  "faq": [],
+  "contact": {
+    "title": "Contact",
+    "label": "Get in touch",
+    "text": "For bookings, scouting and press, write to us.",
+    "email": "info@halalmodels.com",
+    "location": "Abuja, NG • Worldwide",
+    "instagram": "halalmodels",
+    "tiktok": "halalmodels",
+    "show_email": true,
+    "show_instagram": true,
+    "show_tiktok": true,
+    "scout_email": "scout@halalmodels.com",
+    "booking_email": "info@halalmodels.com"
+  },
+  "labels": {
+    "jobs": "Jobs",
+    "polaroids": "Polaroids",
+    "comp": "Comp card",
+    "book": "Book this model",
+    "menu_button": "Menu",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu",
+    "shortlist_link": "Shortlist",
+    "all": "All",
+    "all_models": "All models",
+    "coming_soon": "New faces coming soon.",
+    "add_shortlist": "Add to shortlist",
+    "in_shortlist": "In shortlist",
+    "your_shortlist": "Your shortlist",
+    "shortlist_empty": "Add models with the + button on the board and they will be included in your enquiry.",
+    "download_pdf": "Download PDF",
+    "stat_category": "Category",
+    "stat_height": "Height",
+    "stat_city": "City",
+    "photo": "photo",
+    "photos": "photos",
+    "portfolio": "Portfolio",
+    "job": "Job",
+    "lightbox_close": "Close",
+    "lightbox_prev": "Prev",
+    "lightbox_next": "Next",
+    "journal_home_label": "Journal",
+    "journal_page_label": "News and stories",
+    "faq_label": "Questions",
+    "faq_title": "FAQ",
+    "no_stories": "Stories coming soon.",
+    "no_casting": "No open calls right now.",
+    "no_press": "Coming soon.",
+    "f_name": "Full name",
+    "f_email": "Email",
+    "f_gender": "Gender",
+    "f_height": "Height",
+    "f_city": "City",
+    "f_about": "Tell us about yourself",
+    "g_female": "Female",
+    "g_male": "Male",
+    "g_other": "Other",
+    "select": "Select",
+    "b_name": "Your name",
+    "b_company": "Company or brand",
+    "b_dates": "Dates and location",
+    "b_brief": "About the project",
+    "subj_scout": "Get Scouted",
+    "subj_book": "Booking enquiry",
+    "book_subject": "Booking enquiry: ",
+    "book_body": "Hello, I would like to enquire about booking {name} ({link}).",
+    "reminder": "Reminder before sending: ",
+    "shortlist_mail": "Shortlist: ",
+    "nf_title": "Page not found",
+    "nf_link": "Back to the homepage"
+  },
+  "footer": {
+    "copyright": "© 2026 Halal Models",
+    "location": "",
+    "note": "",
+    "show_email": true,
+    "show_socials": true,
+    "show_location": true,
+    "show_copyright": true
+  },
+  "seo": {
+    "site_url": "https://halalmodels.com",
+    "title": "Halal Models",
+    "description": "Halal Models is a modeling agency with partners and talent worldwide bringing creativity and modelling to brighter lights",
+    "share_image": "images/brand/share.png"
+  },
+  "categories": [
+    {
+      "name": "Modest"
+    },
+    {
+      "name": "Runway"
+    },
+    {
+      "name": "Editorial"
+    },
+    {
+      "name": "Commercial"
+    },
+    {
+      "name": "Lifestyle"
+    },
+    {
+      "name": "Other"
+    }
+  ]
+}
