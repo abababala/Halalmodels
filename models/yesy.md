@@ -25,6 +25,7 @@ jobs:
       - /images/models/IMG_5201.png
       - /images/models/IMG_5249.jpeg
       - /images/models/IMG_5247.jpeg
+      - /images/models/IMG_5299.png
     show: true
 polaroids:
   - /images/models/IMG_4886.jpeg
