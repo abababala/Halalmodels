@@ -110,7 +110,8 @@ async function main() {
     const r = '../../', abs = site + '/models/' + m.slug + '/', L2 = S.labels || {};
     const full = async p => r + await thumb(p, 1800), tb = async (p, w) => r + await thumb(p, w);
     const mainP = m.photos[0];
-    let jobs = (Array.isArray(m.jobs) ? m.jobs : []).filter(j => j && Array.isArray(j.photos) && j.photos.filter(Boolean).length && j.show !== false);
+    const jp = x => (Array.isArray(x) ? x : (x ? [x] : [])).map(v => typeof v === 'string' ? v : (v && typeof v === 'object' ? (Object.values(v).find(z => typeof z === 'string') || '') : '')).filter(Boolean);
+    let jobs = (Array.isArray(m.jobs) ? m.jobs : []).filter(j => j && typeof j === 'object' && String(j.show) !== 'false').map(j => ({ ...j, photos: jp(j.photos !== undefined ? j.photos : (j.photo !== undefined ? j.photo : j.images)) })).filter(j => j.photos.length);
     if (!jobs.length && m.photos.length) jobs = [{ title: lb('portfolio', 'Portfolio'), photos: m.photos }];
     const J = []; for (const j of jobs) { const ph = j.photos.filter(Boolean); J.push({ title: j.title || lb('job', 'Job'), meta: [j.client, j.date].filter(Boolean).join(' / '), cover: await tb(ph[0], 900), full: await Promise.all(ph.map(full)), n: ph.length }); }
     const pol = []; for (const p of (Array.isArray(m.polaroids) ? m.polaroids : []).filter(Boolean)) pol.push({ t: await tb(p, 700), f: await full(p) });
