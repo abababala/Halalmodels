@@ -19,9 +19,7 @@ jobs:
         with:
           node-version: 20
       - name: Install helper tools
-        run: |
-          npm install --no-save js-yaml
-          npm install --no-save sharp || true
+        run: npm install --no-save js-yaml sharp || npm install --no-save js-yaml
       - name: Build the site
         run: node build.js
       - uses: actions/upload-pages-artifact@v3
